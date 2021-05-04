@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.all {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #aaa;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../image/test-07.png);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.all #po1 {
+  position: fixed;
+  right: 20px;
+  top: 100px;
+}
+.all .header .img1 {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.all .header .img2 {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.all .sc {
+  position: relative;
+}
+.all .sc #po2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  left: 7.5%;
+}
+.all .part1 {
+  width: 100%;
+}
+.all .part1 .img3 {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.all .part2 {
+  width: 100%;
+  z-index: 1;
+}
+.all .part2 button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+}
+.all .part2 img {
+  display: block;
+  margin: 0 auto;
+}
+.all .part3 {
+  width: 100%;
+}
+.all .part3 img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.all .part3 .logo {
+  width: 90%;
+}
+.all footer {
+  z-index: 1;
+}
+.all footer .img4 {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.swiper-container {
+  /* 輪播長和寬 */
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -5px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: transparent;
+}
+.swiper-slide img {
+  width: 80%;
+}
+.swiper-container-horizontal .swiper-pagination-bullets {
+  bottom: -2px;
+}
