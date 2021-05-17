@@ -15,7 +15,7 @@
   position: relative;
 }
 .all .poker1 {
-  width: 50px;
+  width: 75px;
   position: absolute;
   animation: poker1 3s infinite linear;
 }
@@ -43,7 +43,7 @@
   }
 }
 .all .poker2 {
-  width: 50px;
+  width: 75px;
   position: absolute;
   animation: poker2 3s infinite;
 }
