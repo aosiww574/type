@@ -14,6 +14,53 @@
   background-size: cover;
   position: relative;
 }
+.all .poker1 {
+  width: 50px;
+  position: absolute;
+  animation: poker1 3s infinite linear;
+}
+@keyframes poker1 {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: 5px;
+  }
+  40% {
+    top: 45px;
+  }
+  50% {
+    top: 50px;
+  }
+  60% {
+    top: 45px;
+  }
+  90% {
+    top: 5px;
+  }
+  100% {
+    top: 0;
+  }
+}
+.all .poker2 {
+  width: 50px;
+  position: absolute;
+  animation: poker2 3s infinite;
+}
+@keyframes poker2 {
+  0% {
+    top: 350px;
+    right: 30px;
+  }
+  50% {
+    top: 300px;
+    right: 10px;
+  }
+  100% {
+    top: 350px;
+    right: 30px;
+  }
+}
 .all #po1 {
   position: fixed;
   right: 20px;
@@ -37,6 +84,13 @@
   bottom: 10%;
   left: 50%;
   left: 7.5%;
+}
+.all .sc .ca {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .all .part1 {
   width: 100%;
