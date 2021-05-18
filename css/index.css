@@ -61,11 +61,6 @@
     right: 30px;
   }
 }
-.all #po1 {
-  position: fixed;
-  right: 20px;
-  top: 100px;
-}
 .all .header .img1 {
   display: block;
   margin: 0 auto;
@@ -79,19 +74,6 @@
 .all .sc {
   margin-top: 50px;
   position: relative;
-}
-.all .sc #po2 {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  left: 7.5%;
-}
-.all .sc .ca {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .all .part1 {
   width: 100%;
