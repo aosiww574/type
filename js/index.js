@@ -37,3 +37,10 @@ for (i = 0; i < swiper.pagination.bullets.length; i++) {
         this.click();
     };
 }
+
+var x = document.querySelector('.x')
+x.addEventListener('click', function () {
+    console.log('aaa');
+  var as = document.querySelector('.all-screen')
+  as.parentNode.removeChild(as)
+})
